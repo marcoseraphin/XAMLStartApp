@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="LightCyan"
+             x:Class="XAMLStartApp.MainPage">
+
+    <!--<StackLayout Orientation="Vertical"
+                 Margin="20,60,20,0">
+
+        <ScrollView>
+            <Grid RowDefinitions="*,*,*,*,Auto,Auto"
+                  ColumnDefinitions="Auto,*">
+
+                <Label Text="Nachname"
+                       VerticalOptions="CenterAndExpand"
+                       Grid.Row="0"
+                       Grid.Column="0"/>
+
+                <Entry Grid.Row="0"
+                       Grid.Column="1" />
+
+                <Label Text="Vorname"
+                       Grid.Row="1"
+                       Grid.Column="0"/>
+
+                <Entry Grid.Row="1"
+                       Grid.Column="1" />
+
+                <Label Text="Strasse"
+                       Grid.Row="2"
+                       Grid.Column="0"/>
+
+                <Entry Grid.Row="2"
+                       Grid.Column="1" />
+
+                <Label Text="Ort"
+                       Grid.Row="3"
+                       Grid.Column="0"/>
+
+                <Entry Grid.Row="3"
+                       Grid.Column="1" />
+
+                <Button Text="Details"
+                        Grid.Row="4"
+                        Grid.Column="0"
+                        Grid.ColumnSpan="2"/>
+
+                <BoxView Grid.Row="5"
+                         Grid.Column="0"
+                         Grid.ColumnSpan="2"
+                         Color="Green"
+                         HeightRequest="700"/>
+            </Grid>   
+        </ScrollView>
+  </StackLayout>-->
+
+
+    <Grid RowDefinitions="Auto,Auto,*,*,*"
+          Margin="20,60,20,20"
+          ColumnDefinitions="Auto,*">
+
+                <Label Text="Nachname"
+                       VerticalOptions="CenterAndExpand"
+                       Grid.Row="0"
+                       Grid.Column="0"/>
+
+                <Entry Grid.Row="0"
+                       Grid.Column="1" />
+
+                <Label Text="Vorname"
+                       Grid.Row="1"
+                       Grid.Column="0"/>
+
+                <Entry Grid.Row="1"
+                       Grid.Column="1" />
+
+                <Label Text="Strasse"
+                       Grid.Row="2"
+                       Grid.Column="0"/>
+
+                <Entry Grid.Row="2"
+                       Grid.Column="1" />
+
+                <Label Text="Ort"
+                       Grid.Row="3"
+                       Grid.Column="0"/>
+
+                <Entry Grid.Row="3"
+                       Grid.Column="1" />
+
+                <Button Text="Details"
+                        Grid.Row="4"
+                        Grid.Column="0"
+                        Clicked="Button_Clicked"
+                        Grid.ColumnSpan="2"/>
+
+            </Grid>
+
+  <!--<Grid>
+    <ListView>
+      <ListView.ItemsSource>
+          <x:Array Type="{x:Type x:String}">
+            <x:String>mono</x:String>
+            <x:String>monodroid</x:String>
+            <x:String>monotouch</x:String>
+            <x:String>monorail</x:String>
+            <x:String>monodevelop</x:String>
+            <x:String>monotone</x:String>
+            <x:String>monopoly</x:String>
+            <x:String>monomodal</x:String>
+            <x:String>mononucleosis</x:String>
+            <x:String>mono</x:String>
+            <x:String>monodroid</x:String>
+            <x:String>monotouch</x:String>
+            <x:String>monorail</x:String>
+            <x:String>monodevelop</x:String>
+            <x:String>monotone</x:String>
+            <x:String>monopoly</x:String>
+            <x:String>monomodal</x:String>
+            <x:String>mononucleosis</x:String>
+            <x:String>mono</x:String>
+            <x:String>monodroid</x:String>
+            <x:String>monotouch</x:String>
+            <x:String>monorail</x:String>
+            <x:String>monodevelop</x:String>
+            <x:String>monotone</x:String>
+            <x:String>monopoly</x:String>
+            <x:String>monomodal</x:String>
+            <x:String>mononucleosis</x:String>
+          </x:Array>
+        </ListView.ItemsSource>
+      </ListView>
+
+      <Button Text="Plus"
+              Margin="20"
+              HorizontalOptions="EndAndExpand"
+              VerticalOptions="EndAndExpand"/>
+  </Grid>-->
+</ContentPage>
